@@ -1,0 +1,36 @@
+body {
+    background-color: #f7f5f5;
+}
+
+.attendance-detail{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 40px 200px;
+}
+
+.attendance-detail__inner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.attendance-list-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.attendance-detail__table{
+    width: 800px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.attendance-detail__table-inner{
+    display: flex;
+    align-items: center;
+}
+
+.attendance-detail__subject{
+    font-size: 15px;
+    color: #7a7c80
+}

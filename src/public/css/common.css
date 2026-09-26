@@ -1,0 +1,51 @@
+.header {
+    background: #000;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 15px 20px;
+    max-width: 1230px;
+    display: flex;
+    align-items: center;
+    /*垂直揃え*/
+    justify-content: space-between;
+    /*水平方向の揃え*/
+    gap: 30px;
+}
+
+.header__logo img {
+    display: block;
+    width: 200px;
+}
+
+.item-nav {
+    display: flex;
+    align-items: center;
+}
+
+.item-nav__logout-form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item-link--button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+}
+
+
+
+
+
+

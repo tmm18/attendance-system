@@ -1,0 +1,67 @@
+body {
+    background-color: #f7f5f5;
+}
+
+.attendance-list{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 40px 200px;
+}
+
+.attendance-list-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.attendance-list-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.attendance-list-date{
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.attendance-list-date__inner{
+    display: flex;
+    align-items: center;
+}
+
+.attendance-list-date__inner a{
+    text-decoration: none;
+}
+
+.attendance-list-date__inner a , .attendance-list-month{
+    width: calc(100%/3);
+    text-align: center;
+}
+
+.attendance-list-table{
+    width: 800px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.attendance-list-table__inner{}
+
+.attendance-list-table table{
+    width: 100%;
+    border-collapse: collapse; /*隣り合うセルのborderを1本にまとめる*/
+}
+
+.attendance-list-table th , .attendance-list-table td{
+    border-bottom: 1px solid#7a7c80; /*横線だけになる*/
+    text-align: center;
+    padding: 10px;
+    width: calc(100% / 6);
+}
+
+.attendance-list-table__text{
+    font-size: 15px;
+    color:#7a7c80
+}
